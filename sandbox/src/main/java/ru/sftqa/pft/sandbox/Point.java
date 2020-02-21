@@ -6,14 +6,14 @@ public class Point {
   }
 
   public static void main(String arg[]) {
-    int x1,x2,y1,y2;
+    int x1, x2, y1, y2;
     double d;
-    x1=10;
-    x2=8;
-    y1=6;
-    y2=4;
+    x1 = 10;
+    x2 = 8;
+    y1 = 6;
+    y2 = 4;
     d = Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
-    System.out.printf("%.2f",d);
+    System.out.printf("%.20f", d);
   }
 
   public Object distance() {
